@@ -1,6 +1,6 @@
 package com.crownedone14.letsmod;
 
-import com.crownedone14.letsmod.configuration.ConfigurationHandler;
+import com.crownedone14.letsmod.handler.ConfigurationHandler;
 import com.crownedone14.letsmod.proxy.IProxy;
 import com.crownedone14.letsmod.reference.Reference;
 import cpw.mods.fml.common.Mod;
