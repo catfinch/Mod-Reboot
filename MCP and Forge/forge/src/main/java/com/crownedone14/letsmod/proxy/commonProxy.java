@@ -1,5 +1,5 @@
 package com.crownedone14.letsmod.proxy;
 
-public class commonProxy implements IProxy
+public abstract class commonProxy implements IProxy
 {
 }
