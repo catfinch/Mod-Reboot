@@ -1,5 +1,6 @@
 package com.crownedone14.letsmod;
 
+import com.crownedone14.letsmod.configuration.ConfigurationHandler;
 import com.crownedone14.letsmod.proxy.IProxy;
 import com.crownedone14.letsmod.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -14,13 +15,13 @@ public class LetsMod
     @Mod.Instance(Reference.MOD_ID)
     public static LetsMod instance;
 
-    @SidedProxy(clientSide = "com.crownedone14.letsmod.proxy.clientProxy", serverSide = "com.crownedone14.letsmod.proxy.serverProxy")
+    @SidedProxy(clientSide = Reference.CLIENT_SIDE_PROXY, serverSide = Reference.SERVER_SIDE_PROXY)
     public static IProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-
+        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
     }
 
     @Mod.EventHandler
