@@ -1,5 +1,8 @@
 package com.crownedone14.letsmod.handler;
 
+import com.crownedone14.letsmod.reference.Reference;
+import cpw.mods.fml.client.event.ConfigChangedEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.common.config.Configuration;
 
 import java.io.File;
@@ -7,30 +10,33 @@ import java.io.File;
 public class ConfigurationHandler
 {
     public static Configuration configuration;
-
+    public static boolean testValue = false;
     public static void init(File configFile)
     {
-
-        configuration  = new Configuration(configFile);
-        boolean configValue = false;
-        try
+        if (configuration == null)
         {
-            configuration.load();
-
-            configValue = configuration.get("ForgeCraft", "configValue", true, "This is an example config value").getBoolean(true);
+            configuration  = new Configuration(configFile);
+            loadConfigurations();
         }
-        catch (Exception e)
+    }
+
+
+    @SubscribeEvent
+    public void onConfigurationChangedEvent(ConfigChangedEvent.OnConfigChangedEvent event)
+    {
+        if(event.modID.equalsIgnoreCase(Reference.MOD_ID))
         {
-
+            loadConfigurations();
         }
-        finally
+    }
+
+    private static void loadConfigurations()
+    {
+        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "");
+
+        if (configuration.hasChanged())
         {
-            if (configuration.hasChanged())
-            {
-                configuration.save();
-            }
+            configuration.save();
         }
-
-        System.out.println("Configuration Test: " + configValue);
     }
 }
