@@ -9,7 +9,7 @@ public class BlockFlag extends BlockLM
         super(Material.cloth);
         this.setBlockName("flag");
         this.setBlockTextureName("flag");
-        this.setLightLevel(15);
+        this.setLightLevel(1);
         this.setLightOpacity(15);
     }
 }

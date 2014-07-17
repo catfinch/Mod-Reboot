@@ -1,38 +1,95 @@
-[15:58:24] [main/INFO]: Setting user: ForgeDevName
-[15:58:27] [Client thread/INFO]: LWJGL Version: 2.9.1
-[15:58:27] [Client thread/ERROR]: Couldn't initialize twitch stream
-[15:58:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Lets Mod
-[15:58:37] [Sound Library Loader/INFO]: Sound engine started
-[15:58:39] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[15:58:40] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[15:58:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Lets Mod
-[15:58:40] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[15:58:40] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[15:58:41] [Sound Library Loader/INFO]: Sound engine started
-[15:58:50] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[15:58:50] [Server thread/INFO]: Generating keypair
-[15:58:50] [Server thread/INFO]: Preparing start region for level 0
-[15:58:51] [Server thread/INFO]: Changing view distance to 8, from 10
-[15:58:57] [Server thread/INFO]: Stopping server
-[15:58:57] [Server thread/INFO]: Saving players
-[15:58:57] [Server thread/INFO]: Saving worlds
-[15:58:57] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:58:57] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:58:57] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[15:58:58] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[15:58:58] [Server thread/INFO]: Generating keypair
-[15:58:58] [Server thread/INFO]: Preparing start region for level 0
-[15:58:59] [Server thread/INFO]: Changing view distance to 8, from 10
-[15:58:59] [Server thread/INFO]: ForgeDevName[local:E:c6a7c706] logged in with entity id 405 at (-755.6999999880791, 5.0, -1360.546602591594)
-[15:58:59] [Server thread/INFO]: ForgeDevName joined the game
-[15:59:12] [Server thread/INFO]: Saving and pausing game...
-[15:59:12] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:59:12] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:59:12] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[15:59:14] [Client thread/INFO]: Stopping!
-[15:59:14] [Server thread/INFO]: Stopping server
-[15:59:14] [Server thread/INFO]: Saving players
-[15:59:14] [Server thread/INFO]: Saving worlds
-[15:59:14] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:59:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:59:14] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:22:40] [main/INFO]: Setting user: ForgeDevName
+[16:22:43] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:22:43] [Client thread/ERROR]: Couldn't initialize twitch stream
+[16:22:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Lets Mod
+[16:22:53] [Sound Library Loader/INFO]: Sound engine started
+[16:22:56] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:22:56] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:22:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Lets Mod
+[16:22:57] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:22:57] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:22:58] [Sound Library Loader/INFO]: Sound engine started
+[16:23:05] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[16:23:05] [Server thread/INFO]: Generating keypair
+[16:23:06] [Server thread/INFO]: Preparing start region for level 0
+[16:23:07] [Server thread/INFO]: Changing view distance to 8, from 10
+[16:23:08] [Server thread/INFO]: ForgeDevName[local:E:78db2699] logged in with entity id 207 at (-739.8578959310672, 16.48893891210069, -1374.6625283307053)
+[16:23:08] [Server thread/INFO]: ForgeDevName joined the game
+[16:23:27] [Client thread/INFO]: [CHAT] You are now playing adventure
+[16:23:28] [Client thread/INFO]: [CHAT] You are now playing survival
+[16:23:28] [Client thread/INFO]: [CHAT] You are now playing creative
+[16:23:44] [Client thread/INFO]: [CHAT] You are now playing creative+
+[16:24:03] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:03] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:18] [Server thread/INFO]: [ForgeDevName: Given Jump Boost (ID 8) * 0 to ForgeDevName for 10 seconds]
+[16:24:18] [Client thread/INFO]: [CHAT] Given Jump Boost (ID 8) * 0 to ForgeDevName for 10 seconds
+[16:24:28] [Client thread/INFO]: [CHAT] The number you have entered (1000000000) is too big, it must be at most 1000000
+[16:24:34] [Server thread/INFO]: [ForgeDevName: Given Jump Boost (ID 8) * 10 to ForgeDevName for 1000000 seconds]
+[16:24:34] [Client thread/INFO]: [CHAT] Given Jump Boost (ID 8) * 10 to ForgeDevName for 1000000 seconds
+[16:24:41] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:49] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:49] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:51] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:51] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:52] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:53] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:55] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:56] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:59] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:24:59] [Server thread/INFO]: [ForgeDevName: Given Speed (ID 1) * 10 to ForgeDevName for 1000000 seconds]
+[16:24:59] [Client thread/INFO]: [CHAT] Given Speed (ID 1) * 10 to ForgeDevName for 1000000 seconds
+[16:25:25] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:25:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:25:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:26:01] [Server thread/INFO]: Saving and pausing game...
+[16:26:01] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:26:01] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:26:01] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:26:18] [Server thread/INFO]: Changing view distance to 16, from 8
+[16:26:32] [Server thread/INFO]: [ForgeDevName: Given [Wooden Sword] * 1 to ForgeDevName]
+[16:26:32] [Client thread/INFO]: [CHAT] Given [Wooden Sword] * 1 to ForgeDevName
+[16:27:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:27:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:28:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:28:50] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:28:53] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:28:53] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:28:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:28:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:28:56] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:28:57] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:29:00] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:29:01] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:29:02] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:29:03] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:29:03] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:29:07] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:29:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:29:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:29:16] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:29:17] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:29:22] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[16:32:49] [Server thread/INFO]: Saving and pausing game...
+[16:32:49] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:32:49] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:32:49] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:32:51] [Client thread/INFO]: Stopping!
+[16:32:51] [Server thread/INFO]: Stopping server
+[16:32:51] [Server thread/INFO]: Saving players
+[16:32:51] [Server thread/INFO]: Saving worlds
+[16:32:51] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:32:51] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:32:51] [Server thread/INFO]: Saving chunks for level 'New World'/The End

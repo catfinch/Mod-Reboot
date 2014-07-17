@@ -1,5 +1,6 @@
 package com.crownedone14.letsmod.block;
 
+import com.crownedone14.letsmod.creativeTab.CreativeTabLM;
 import com.crownedone14.letsmod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class BlockLM extends Block
     public BlockLM(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabLM.LM_TAB);
     }
     public BlockLM()
     {

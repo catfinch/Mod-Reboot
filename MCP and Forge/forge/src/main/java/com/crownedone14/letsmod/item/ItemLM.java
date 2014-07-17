@@ -1,6 +1,7 @@
 package com.crownedone14.letsmod.item;
 
 
+import com.crownedone14.letsmod.creativeTab.CreativeTabLM;
 import com.crownedone14.letsmod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class ItemLM extends Item {
     public ItemLM()
     {
         super();
+        this.setCreativeTab(CreativeTabLM.LM_TAB);
     }
 
     @Override
