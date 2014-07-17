@@ -1,6 +1,7 @@
 package com.crownedone14.letsmod;
 
 import com.crownedone14.letsmod.handler.ConfigurationHandler;
+import com.crownedone14.letsmod.init.ModBlocks;
 import com.crownedone14.letsmod.init.ModItems;
 import com.crownedone14.letsmod.proxy.IProxy;
 import com.crownedone14.letsmod.reference.Reference;
@@ -27,6 +28,7 @@ public class LetsMod
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
         ModItems.init();
+        ModBlocks.init();
     }
 
     @Mod.EventHandler

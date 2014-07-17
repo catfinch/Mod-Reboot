@@ -18,11 +18,11 @@ buildscript {
 apply plugin: 'forge'
 
 version = "1.7.10-a1.0"
-group= "com.Crownedone14.LetsMod" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "LetsMod"
+group= "com.crownedone14.letsmod" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "letsmod"
 
 minecraft {
-    version = "1.7.10-10.13.0.1180"
+    version = "1.7.10-10.13.0.1186"
     assetDir = "eclipse/assets"
 }
 
